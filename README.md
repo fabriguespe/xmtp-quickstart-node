@@ -1,3 +1,5 @@
-```
-//run node main.js
+run
+
+```bash
+node main.js
 ```
