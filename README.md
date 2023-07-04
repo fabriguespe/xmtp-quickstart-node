@@ -7,7 +7,7 @@ async function main() {
     env: "dev",
   });
   const conv = await xmtp.conversations.newConversation(
-    "0x3F11b27F323b62B159D2642964fa27C46C841897",
+    "address",
   );
   const message = await conv.send("gm");
   console.log(message);
