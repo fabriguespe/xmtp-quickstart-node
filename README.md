@@ -1,3 +1,4 @@
+```
 const ethers = require("ethers");
 const { Client } = require("@xmtp/xmtp-js");
 
@@ -12,3 +13,4 @@ async function main() {
   console.log(message);
 }
 main();
+```
