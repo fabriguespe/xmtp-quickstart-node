@@ -23,8 +23,7 @@ async function initialize_the_wallet_from_key() {
 // Initialize the wallet
 async function initialize_the_wallet_from_key_viem() {
   // You'll want to replace this with a wallet from your application
-  const privateKey =
-    "4d06d3f0bdae95c453412ce6fbb3df5fd300ae87e11250625b1997c9a9ac82eb";
+  const privateKey = "";
   const hexPrivateKey = `0x${privateKey}`;
   const signer = privateKeyToAccount(hexPrivateKey);
 
