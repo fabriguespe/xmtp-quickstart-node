@@ -3,6 +3,7 @@
 ## Installation
 
 ```bash
+npm install
 node demo.js
 ```
 
