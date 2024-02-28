@@ -1,7 +1,10 @@
 {
   "type": "module",
+  "engines": {
+    "node": "20.10.0"
+  },
   "dependencies": {
-    "@xmtp/grpc-api-client": "^0.2.4",
+    "@xmtp/grpc-api-client": "latest",
     "@xmtp/xmtp-js": "latest",
     "ethers": "^5.7.2",
     "qrcode-terminal": "^0.12.0",

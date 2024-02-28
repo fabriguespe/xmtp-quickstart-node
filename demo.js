@@ -103,7 +103,7 @@ function printQrCode() {
 
 // Run the functions
 await initialize_the_wallet_from_key();
-await initialize_the_wallet_from_key_viem();
+//await initialize_the_wallet_from_key_viem();
 //await initialize_the_wallet();
 //wait create_a_client();
 //await start_a_new_conversation();
